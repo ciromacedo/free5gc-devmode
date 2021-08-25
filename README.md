@@ -1,8 +1,10 @@
 # free5gc-devmode
 This is a free5gc fork project 'custom debug mode'
 
-Clone this projetc to a ```free5gc``` folder name:
-``` git clone xxxx free5gc  ```
+Clone this projetc to a ```free5gc```  sppecific folder name:
+
+
+``` git clone https://github.com/ciromacedo/free5gc-devmode.git free5gc  ```
 
 ----
 
