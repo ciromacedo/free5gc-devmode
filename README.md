@@ -33,17 +33,28 @@ go get -u github.com/sirupsen/logrus
 go get -u github.com/calee0219/fatal
 ```
 
+After, acess  ``` cd ~./go/src ``` and clone this projetc to a ```free5gc```  sppecific folder name:
 
-Clone this projetc to a ```free5gc```  sppecific folder name:
 
+``` 
+git clone https://github.com/ciromacedo/free5gc-devmode.git free5gc  
 
-``` git clone https://github.com/ciromacedo/free5gc-devmode.git free5gc  ```
-
+```
 ----
 
-to config eviroment run:
+Test run nrf:
 
-1º go mod download -> to install dependencies
+``` 
+
+cd free5gc/nrf
+go run nrf.go
+
+```
+The output shoud be:
+
+![image](https://user-images.githubusercontent.com/1461333/130826499-6725d406-eecc-4485-87dd-51307f21a114.png)
+
+----------------------
 
 NFs should be run in priority as below:
 
