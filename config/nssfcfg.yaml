@@ -123,7 +123,7 @@ configuration:
               sd: 000002 # Slice Differentiator (3 bytes hex string, range: 000000~FFFFFF)
     - amfSetId: 2 # the AMF Set identifier
       # URI of the NRF used to determine the list of candidate AMF(s) from the AMF Set
-      nrfAmfSet: http://localhost:8084/nnrf-nfm/v1/nf-instances
+      nrfAmfSet: http://127.0.0.1:29510/nnrf-nfm/v1/nf-instances
       # the Nssai availability data information per TA supported by the AMF
       supportedNssaiAvailabilityData:
         - tai: # Tracking Area Identifier
