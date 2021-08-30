@@ -7,9 +7,17 @@ This is a free5gc fork project 'custom debug mode'
 sudo apt update && sudo apt -y install gcc cmake autoconf build-essential libtool pkg-config libmnl-dev libyaml-dev wget git net-tools mongodb
 
 ```
+Enable MongoDB public access:
+
+```
+sudo nano /etc/mongod.conf
+```
+By default mongodb is configured to allow connections only from localhost. We need to allow remote connections. In the same config file, go to the network interfaces section and change the **bindIp** from 127.0.0.1 to 0.0.0.0 which means allow connections from all ip addresses, after, restart MongoDB service.
+```
+sudo systemctl restart mongodb
+```
+
 Make sure that MongoDB is running:
-
-
 ``` 
 sudo systemctl daemon-reload
 
