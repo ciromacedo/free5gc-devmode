@@ -1,0 +1,1 @@
+/usr/bin/gcc    CMakeFiles/testpfcp.dir/test.c.o  -o /home/labora/go/src/free5gc/upf/build/bin/testpfcp   -L/home/labora/go/src/free5gc/upf/build/utlt_logger 
