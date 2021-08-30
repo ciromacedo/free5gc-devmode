@@ -11,7 +11,12 @@ Make sure that MongoDB is running:
 
 
 ``` 
+sudo systemctl daemon-reload
+
 sudo systemctl start mongodb
+
+sudo systemctl status mongodb
+
 ```
 
 Install Go 1.14.4 (assuming there is no previous version installed):
