@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/free5gc/nwdaf/logger"
-	nwdaf_service "github.com/free5gc/nwdaf/service"
-	"github.com/free5gc/nwdaf/version"
+	"github.com/free5gc/NFs/nwdaf/logger"
+	nwdaf_service "github.com/free5gc/NFs/nwdaf/service"
+	"github.com/free5gc/NFs/nwdaf/version"
 	"os"
 
 	"github.com/sirupsen/logrus"
