@@ -1,1 +1,0 @@
-/usr/bin/gcc    CMakeFiles/testutlt.dir/test.c.o  -o /home/labora/go/src/free5gc/upf/build/bin/testutlt   -L/home/labora/go/src/free5gc/upf/build/utlt_logger  -Wl,-rpath,/home/labora/go/src/free5gc/upf/build/utlt_logger ../utlt/libfree5GC_utlt.a -llogger -lyaml libfree5GC_utlt_test.a ../utlt/libfree5GC_utlt.a -lrt -lpthread -llogger -lyaml 
